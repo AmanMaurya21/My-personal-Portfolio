@@ -1,482 +1,561 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Aman - Computer Science student specializing in Data Science and Artificial Intelligence."
-    />
-    <title>Aman | Developer Portfolio</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="style.css" />
-  </head>
-
-  <body>
-    <div class="orb orb-one"></div>
-    <div class="orb orb-two"></div>
-
-    <!-- Header -->
-    <header class="header">
-      <nav class="nav container">
-        <a class="logo" href="#home">aman<span>.</span></a>
-
-        <button
-          class="menu-toggle"
-          id="menuToggle"
-          aria-label="Toggle navigation"
-        >
-          ☰
-        </button>
-
-        <ul class="nav-links" id="navLinks">
-          <li><a href="#about">About</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact" class="nav-contact">Contact ↗</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-
-      <!-- Hero Section -->
-      <section class="hero container" id="home">
-        <div class="hero-copy reveal">
-
-          <div class="status">
-            <span class="dot"></span>
-            AVAILABLE FOR LEARNING & COLLABORATION
-          </div>
-
-          <p class="eyebrow">HELLO, I'M</p>
-
-          <h1>
-            Aman<span class="accent">.</span><br />
-            <span class="outline">Developer</span>
-          </h1>
-
-          <p class="hero-text">
-            A Computer Science student exploring the intersection of
-            <span class="accent-text">Data Science, AI</span> and software
-            development. I enjoy turning ideas into things that work.
-          </p>
-
-          <div class="hero-actions">
-            <a class="btn primary" href="#projects">
-              Explore my work <span>↘</span>
-            </a>
-
-            <a class="btn secondary" href="#contact">
-              Get in touch <span>↗</span>
-            </a>
-          </div>
-
-          <div class="hero-meta">
-            <span>📍 India</span>
-            <span>⌁ CSE · Data Science & AI</span>
-          </div>
-
-        </div>
-
-        <div class="hero-art reveal">
-          <div class="art-card">
-
-            <div class="art-top">
-              <span>~/portfolio</span>
-              <span>● ● ●</span>
-            </div>
-
-            <div class="code-art">
-              <span class="code-muted">01</span>
-              <span class="code-purple">const</span>
-              <span class="code-green">developer</span> = {<br />
-
-              <span class="code-muted">02</span>
-              &nbsp; name:
-              <span class="code-orange">"Aman"</span>,<br />
-
-              <span class="code-muted">03</span>
-              &nbsp; field:
-              <span class="code-orange">"Data Science"</span>,<br />
-
-              <span class="code-muted">04</span>
-              &nbsp; passion: [<br />
-
-              <span class="code-muted">05</span>
-              &nbsp;&nbsp;
-              <span class="code-orange">"Coding"</span>,<br />
-
-              <span class="code-muted">06</span>
-              &nbsp;&nbsp;
-              <span class="code-orange">"AI"</span>,<br />
-
-              <span class="code-muted">07</span>
-              &nbsp;&nbsp;
-              <span class="code-orange">"Creating"</span><br />
-
-              <span class="code-muted">08</span>
-              &nbsp; ]<br />
-
-              <span class="code-muted">09</span>
-              };<br /><br />
-
-              <span class="code-purple">while</span> (learning) {<br />
-
-              <span class="code-muted">10</span>
-              &nbsp; build();<br />
-
-              <span class="code-muted">11</span>
-              &nbsp; improve();<br />
-              }
-            </div>
-
-            <div class="art-bottom">
-              <span>BUILD. LEARN. REPEAT.</span>
-              <span>✳</span>
-            </div>
-
-          </div>
-
-          <div class="floating-tag">✳ Curious by nature</div>
-        </div>
-      </section>
-
-      <!-- About Section -->
-      <section class="section container" id="about">
-
-        <div class="section-head reveal">
-          <p class="eyebrow">01 / ABOUT</p>
-          <h2>A little about <span class="accent-text">me.</span></h2>
-        </div>
-
-        <div class="about-grid">
-
-          <p class="about-lead reveal">
-            I'm a student, a problem-solver in progress, and someone who loves
-            exploring how technology can make ideas real.
-          </p>
-
-          <div class="about-body reveal">
-            <p>
-              Currently pursuing a B.Tech in Computer Science with a
-              specialization in Data Science and Artificial Intelligence.
-              I'm building my foundations in programming, analytics and web
-              development, one project at a time.
-            </p>
-
-            <p>
-              Outside code, I enjoy gaming and sketching—creative hobbies
-              that help me see problems from a different perspective.
-            </p>
-
-            <div class="about-pills">
-              <span>Curiosity</span>
-              <span>Creativity</span>
-              <span>Continuous learning</span>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <!-- Education Section -->
-      <section class="section container" id="education">
-
-        <div class="section-head reveal">
-          <p class="eyebrow">02 / EDUCATION</p>
-          <h2>My academic <span class="accent-text">journey.</span></h2>
-        </div>
-
-        <div class="timeline reveal">
-
-          <div class="timeline-item">
-
-            <div class="timeline-date">CURRENT</div>
-
-            <div>
-              <h3>B.Tech — Computer Science</h3>
-
-              <p class="accent-text">
-                Data Science & Artificial Intelligence
-              </p>
-
-              <p>Shri Ramswaroop Memorial University</p>
-
-              <p class="small">
-                Building a foundation in algorithms, data analytics, AI and
-                software development.
-              </p>
-            </div>
-
-            <span class="timeline-marker"></span>
-          </div>
-
-        </div>
-      </section>
-
-      <!-- Skills Section -->
-      <section class="section container" id="skills">
-
-        <div class="section-head reveal">
-          <p class="eyebrow">03 / SKILLS</p>
-          <h2>Tools in my <span class="accent-text">toolbox.</span></h2>
-        </div>
-
-        <div class="skills-grid">
-
-          <div class="skill-card reveal">
-            <div class="skill-icon">⌘</div>
-            <h3>Programming</h3>
-
-            <div class="skill-tags">
-              <span>Python</span>
-              <span>Java</span>
-              <span>C</span>
-              <span>SQL</span>
-            </div>
-          </div>
-
-          <div class="skill-card reveal">
-            <div class="skill-icon">◈</div>
-            <h3>Web Development</h3>
-
-            <div class="skill-tags">
-              <span>HTML5</span>
-              <span>CSS3</span>
-              <span>JavaScript</span>
-              <span>Responsive UI</span>
-            </div>
-          </div>
-
-          <div class="skill-card reveal">
-            <div class="skill-icon">▦</div>
-            <h3>Data & Analytics</h3>
-
-            <div class="skill-tags">
-              <span>Pandas</span>
-              <span>NumPy</span>
-              <span>Matplotlib</span>
-              <span>Excel</span>
-            </div>
-          </div>
-
-          <div class="skill-card reveal">
-            <div class="skill-icon">⌁</div>
-            <h3>Tools</h3>
-
-            <div class="skill-tags">
-              <span>Git</span>
-              <span>GitHub</span>
-              <span>VS Code</span>
-              <span>MySQL</span>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <!-- Projects Section -->
-      <section class="section container" id="projects">
-
-        <div class="section-head reveal">
-          <p class="eyebrow">04 / PROJECTS</p>
-          <h2>Things I've <span class="accent-text">built.</span></h2>
-
-          <p class="section-desc">
-            A few projects and experiments from my learning journey.
-          </p>
-        </div>
-
-        <div class="projects-grid">
-
-          <!-- Project 1 -->
-          <article class="project-card reveal">
-
-            <div class="project-number">PROJECT / 01</div>
-
-            <div class="project-visual visual-one">
-              <span class="visual-symbol">♫</span>
-              <span class="visual-caption">MUSIC CLASSIFICATION</span>
-            </div>
-
-            <div class="project-content">
-
-              <h3>Music Genre Classification</h3>
-
-              <p>
-                A machine learning project focused on classifying music tracks
-                into different genres using audio signal processing and
-                machine learning techniques.
-              </p>
-
-              <div class="project-tags">
-                <span>Python</span>
-                <span>Librosa</span>
-                <span>Machine Learning</span>
-                <span>Signal Processing</span>
-              </div>
-
-              <a
-                href="https://github.com/AmanMaurya21/Music-genre-Classification"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="project-link"
-              >
-                View on GitHub ↗
-              </a>
-
-            </div>
-          </article>
-
-          <!-- Project 2 -->
-          <article class="project-card reveal">
-
-            <div class="project-number">PROJECT / 02</div>
-
-            <div class="project-visual visual-two">
-              <span class="visual-symbol">▥</span>
-              <span class="visual-caption">DATA EXPLORATION</span>
-            </div>
-
-            <div class="project-content">
-
-              <h3>Student Data Analysis</h3>
-
-              <p>
-                Cleaning and exploring student performance data using Python,
-                followed by visual analysis and reporting.
-              </p>
-
-              <div class="project-tags">
-                <span>Python</span>
-                <span>Pandas</span>
-                <span>Matplotlib</span>
-              </div>
-
-              <a
-                href="https://github.com/AmanMaurya21/Data_Analytics_Project"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="project-link"
-              >
-                View on GitHub ↗
-              </a>
-
-            </div>
-          </article>
-
-          <!-- Project 3 -->
-          <article class="project-card reveal">
-
-            <div class="project-number">PROJECT / 03</div>
-
-            <div class="project-visual visual-three">
-              <span class="visual-symbol">⌘</span>
-              <span class="visual-caption">WEB DESIGN</span>
-            </div>
-
-            <div class="project-content">
-
-              <h3>Personal Portfolio</h3>
-
-              <p>
-                A responsive website to showcase my skills, learning journey,
-                projects and contact information.
-              </p>
-
-              <div class="project-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-              </div>
-
-              <a class="project-link" href="#home">
-                You're here ↗
-              </a>
-
-            </div>
-          </article>
-
-        </div>
-      </section>
-
-      <!-- Contact Section -->
-      <section class="section container contact-section" id="contact">
-
-        <div class="contact-box reveal">
-
-          <p class="eyebrow">05 / CONTACT</p>
-
-          <h2>
-            Have an idea?<br />
-            <span class="accent-text">Let's connect.</span>
-          </h2>
-
-          <p>
-            I'm always interested in learning, collaborating and working on
-            interesting ideas.
-          </p>
-
-          <div class="contact-links">
-
-            <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=amanmaurya1421@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn primary"
-            >
-              Email Me ↗
-            </a>
-
-            <a
-              href="https://github.com/AmanMaurya21?tab=repositories"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn secondary"
-            >
-              GitHub ↗
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/aman-kumar-maurya-b3521936b/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn secondary"
-            >
-              LinkedIn ↗
-            </a>
-
-          </div>
-        </div>
-      </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer container">
-
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aman - Computer Science student specializing in Data Science, Artificial Intelligence, software development and art." />
+  <title>Aman | Developer & Artist</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="orb orb-one"></div>
+  <div class="orb orb-two"></div>
+
+  <!-- NAVIGATION -->
+  <header class="header">
+    <nav class="nav container">
       <a class="logo" href="#home">aman<span>.</span></a>
 
-      <p>
-        Designed & built with curiosity. ©
-        <span id="year"></span> Aman
-      </p>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        ☰
+      </button>
 
-      <a href="#home" class="back-top">Back to top ↑</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#art">Art</a></li>
+        <li><a href="#contact" class="nav-contact">Contact ↗</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    </footer>
+  <main>
 
-    <script src="script.js"></script>
-  </body>
+    <!-- HERO -->
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+
+        <div class="status">
+          <span class="dot"></span>
+          AVAILABLE FOR LEARNING & COLLABORATION
+        </div>
+
+        <p class="eyebrow">HELLO, I'M</p>
+
+        <h1>
+          Aman<span class="accent">.</span><br />
+          <span class="outline">Developer</span>
+        </h1>
+
+        <p class="hero-text">
+          A Computer Science student exploring the intersection of
+          <span class="accent-text">Data Science, AI</span> and software
+          development. I enjoy turning ideas into things that work,
+          whether through code or creativity.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">
+            Explore my work <span>↘</span>
+          </a>
+
+          <a class="btn secondary" href="#contact">
+            Get in touch <span>↗</span>
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span>📍 India</span>
+          <span>⌁ CSE · Data Science & AI</span>
+        </div>
+
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="art-card">
+
+          <div class="art-top">
+            <span>~/portfolio</span>
+            <span>● ● ●</span>
+          </div>
+
+          <div class="code-art">
+            <span class="code-muted">01</span>
+            <span class="code-purple">const</span>
+            <span class="code-green">developer</span> = {<br />
+
+            <span class="code-muted">02</span>
+            &nbsp; name: <span class="code-orange">"Aman"</span>,<br />
+
+            <span class="code-muted">03</span>
+            &nbsp; field: <span class="code-orange">"Data Science"</span>,<br />
+
+            <span class="code-muted">04</span>
+            &nbsp; passion: [<br />
+
+            <span class="code-muted">05</span>
+            &nbsp;&nbsp; <span class="code-orange">"Coding"</span>,<br />
+
+            <span class="code-muted">06</span>
+            &nbsp;&nbsp; <span class="code-orange">"AI"</span>,<br />
+
+            <span class="code-muted">07</span>
+            &nbsp;&nbsp; <span class="code-orange">"Sketching"</span><br />
+
+            <span class="code-muted">08</span>
+            &nbsp; ]<br />
+
+            <span class="code-muted">09</span>
+            };<br /><br />
+
+            <span class="code-purple">while</span> (learning) {<br />
+
+            <span class="code-muted">10</span>
+            &nbsp; build();<br />
+
+            <span class="code-muted">11</span>
+            &nbsp; create();<br />
+
+            }
+          </div>
+
+          <div class="art-bottom">
+            <span>BUILD. LEARN. CREATE.</span>
+            <span>✳</span>
+          </div>
+
+        </div>
+
+        <div class="floating-tag">✳ Curious by nature</div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section container" id="about">
+
+      <div class="section-head reveal">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>A little about <span class="accent-text">me.</span></h2>
+      </div>
+
+      <div class="about-grid">
+
+        <p class="about-lead reveal">
+          I'm a student, a problem-solver in progress, and a creative
+          who enjoys exploring both technology and art.
+        </p>
+
+        <div class="about-body reveal">
+
+          <p>
+            Currently pursuing a B.Tech in Computer Science with a
+            specialization in Data Science and Artificial Intelligence.
+            I'm building my foundations in programming, analytics and
+            web development, one project at a time.
+          </p>
+
+          <p>
+            Outside code, I enjoy drawing, pencil sketching and gaming.
+            Art has been a part of my journey for years, giving me another
+            way to express ideas, creativity and attention to detail.
+          </p>
+
+          <div class="about-pills">
+            <span>Curiosity</span>
+            <span>Creativity</span>
+            <span>Continuous learning</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section container" id="education">
+
+      <div class="section-head reveal">
+        <p class="eyebrow">02 / EDUCATION</p>
+        <h2>My academic <span class="accent-text">journey.</span></h2>
+      </div>
+
+      <div class="timeline reveal">
+
+        <div class="timeline-item">
+
+          <div class="timeline-date">CURRENT</div>
+
+          <div>
+            <h3>B.Tech — Computer Science</h3>
+
+            <p class="accent-text">
+              Data Science & Artificial Intelligence
+            </p>
+
+            <p>Shri Ramswaroop Memorial University</p>
+
+            <p class="small">
+              Building a foundation in algorithms, data analytics,
+              AI and software development.
+            </p>
+          </div>
+
+          <span class="timeline-marker"></span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section container" id="skills">
+
+      <div class="section-head reveal">
+        <p class="eyebrow">03 / SKILLS</p>
+        <h2>Tools in my <span class="accent-text">toolbox.</span></h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- PROGRAMMING -->
+        <div class="skill-card reveal">
+          <div class="skill-icon">⌘</div>
+          <h3>Programming</h3>
+
+          <div class="skill-tags">
+            <span>Python</span>
+            <span>Java</span>
+            <span>C</span>
+            <span>SQL</span>
+          </div>
+        </div>
+
+        <!-- WEB -->
+        <div class="skill-card reveal">
+          <div class="skill-icon">◈</div>
+          <h3>Web Development</h3>
+
+          <div class="skill-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Responsive UI</span>
+          </div>
+        </div>
+
+        <!-- ANALYTICS -->
+        <div class="skill-card reveal">
+          <div class="skill-icon">▦</div>
+          <h3>Data & Analytics</h3>
+
+          <div class="skill-tags">
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Matplotlib</span>
+            <span>Excel</span>
+          </div>
+        </div>
+
+        <!-- TOOLS -->
+        <div class="skill-card reveal">
+          <div class="skill-icon">⌁</div>
+          <h3>Tools</h3>
+
+          <div class="skill-tags">
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>VS Code</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+
+        <!-- ART -->
+        <div class="skill-card reveal">
+          <div class="skill-icon">✎</div>
+          <h3>Art & Sketching</h3>
+
+          <div class="skill-tags">
+            <span>Pencil Drawing</span>
+            <span>Portrait Sketching</span>
+            <span>Shading</span>
+            <span>Traditional Art</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section container" id="projects">
+
+      <div class="section-head reveal">
+        <p class="eyebrow">04 / PROJECTS</p>
+        <h2>Things I've <span class="accent-text">built.</span></h2>
+
+        <p class="section-desc">
+          A few projects and experiments from my learning journey.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+        <article class="project-card reveal">
+
+          <div class="project-number">PROJECT / 01</div>
+
+          <div class="project-visual music-visual">
+            <div class="visual-icon">♫</div>
+            <span>MUSIC CLASSIFICATION</span>
+          </div>
+
+          <h3>Music Genre Classification</h3>
+
+          <p>
+            A machine learning project focused on classifying music
+            tracks into different genres using audio signal processing
+            and machine learning techniques.
+          </p>
+
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Librosa</span>
+            <span>Machine Learning</span>
+            <span>Signal Processing</span>
+          </div>
+
+          <a
+            href="https://github.com/AmanMaurya21/Music-genre-Classification"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-link"
+          >
+            View on GitHub ↗
+          </a>
+
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="project-card reveal">
+
+          <div class="project-number">PROJECT / 02</div>
+
+          <div class="project-visual visual-two">
+            <span class="visual-symbol">▥</span>
+            <span class="visual-caption">DATA EXPLORATION</span>
+          </div>
+
+          <div class="project-content">
+
+            <h3>Student Data Analysis</h3>
+
+            <p>
+              Cleaning and exploring student performance data using
+              Python, followed by visual analysis and reporting.
+            </p>
+
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Pandas</span>
+              <span>Matplotlib</span>
+            </div>
+
+            <a
+              href="https://github.com/AmanMaurya21/Data_Analytics_Project"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View on GitHub ↗
+            </a>
+
+          </div>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="project-card reveal">
+
+          <div class="project-number">PROJECT / 03</div>
+
+          <div class="project-visual visual-three">
+            <span class="visual-symbol">⌘</span>
+            <span class="visual-caption">WEB DESIGN</span>
+          </div>
+
+          <div class="project-content">
+
+            <h3>Personal Portfolio</h3>
+
+            <p>
+              A responsive website showcasing my skills, learning journey,
+              projects, creative interests and contact information.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <a class="project-link" href="#home">
+              You're here ↗
+            </a>
+
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ART SECTION -->
+    <section class="section container art-section" id="art">
+
+      <div class="section-head reveal">
+        <p class="eyebrow">05 / BEYOND CODE</p>
+        <h2>Art & <span class="accent-text">creativity.</span></h2>
+      </div>
+
+      <div class="art-grid">
+
+        <div class="art-copy reveal">
+
+          <h3>Another way I create.</h3>
+
+          <p>
+            Drawing and sketching have been a part of my journey for years.
+            I enjoy working with pencils, experimenting with shading,
+            capturing details and bringing ideas to life on paper.
+          </p>
+
+          <p>
+            For me, art is more than a hobby. It's a way to slow down,
+            observe the world and express creativity outside the digital space.
+          </p>
+
+          <div class="art-tags">
+            <span>Pencil Sketching</span>
+            <span>Portraits</span>
+            <span>Shading</span>
+            <span>Traditional Art</span>
+          </div>
+
+          <a
+            href="https://www.instagram.com/peaceful_arts21/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn primary art-button"
+          >
+            <span>Explore my art on Instagram ↗</span>
+          </a>
+
+        </div>
+
+        <div class="art-highlight reveal">
+
+          <div class="art-highlight-icon">✎</div>
+
+          <p class="art-highlight-label">MY CREATIVE SPACE</p>
+
+          <h3>peaceful_arts21</h3>
+
+          <p>
+            Sketches, portraits and a little bit of creativity.
+          </p>
+
+          <a
+            href="https://www.instagram.com/peaceful_arts21/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-link"
+          >
+            Visit Instagram ↗
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container contact-section" id="contact">
+
+      <div class="contact-box reveal">
+
+        <p class="eyebrow">06 / CONTACT</p>
+
+        <h2>
+          Have an idea?<br />
+          <span class="accent-text">Let's connect.</span>
+        </h2>
+
+        <p>
+          I'm always interested in learning, collaborating and
+          working on interesting ideas.
+        </p>
+
+        <div class="contact-links">
+
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=amanmaurya1421@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn primary"
+          >
+            Email Me ↗
+          </a>
+
+          <a
+            href="https://github.com/AmanMaurya21?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn secondary"
+          >
+            GitHub ↗
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/aman-kumar-maurya-b3521936b/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn secondary"
+          >
+            LinkedIn ↗
+          </a>
+
+          <a
+            href="https://www.instagram.com/peaceful_arts21/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn secondary"
+          >
+            Instagram · Art ↗
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer container">
+
+    <a class="logo" href="#home">aman<span>.</span></a>
+
+    <p>
+      Designed & built with curiosity.
+      © <span id="year"></span> Aman
+    </p>
+
+    <a href="#home" class="back-top">Back to top ↑</a>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
